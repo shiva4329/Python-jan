@@ -9,7 +9,7 @@ y = 20
 z = 30
 a = 40
 
-#print(x) # single ine comment
+#print(x) # single line comment
 print(y)
 
 # multi line comment
