@@ -1,17 +1,20 @@
-# comments : it will use to comment the line or lines of code those are no need to execute
-    # types:
-            # single comment : # ---> used for sing line comment
-            # Multiline comment : '''     ''' -----> used for Multi line comment
+# comment : the line/lines of code dont want to be execute we can use comments
+# in python we have 2 types of comments
+# types:
+    # single line(#) -> # ---> this will be used as for single line comment
+    #       symbol : #
+    #  multi-line('''...''') ---> '''.......''' ---> this is for multiline
+    #       symbol : ''' '''
 
 
-x = 10
-y = 20
-z = 30
-a = 40
+#using sine line comment
+#x = 100 # single line comment
+# print(x)
 
-#print(x) # single line comment
-print(y)
 
-# multi line comment
-'''print(z)
-print(a)'''
+
+# using multi-line comment
+x = 100
+'''y = 200
+z = 300''' # multi-line comment
+print(x)
