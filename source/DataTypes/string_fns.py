@@ -15,7 +15,7 @@ print(len(x))
 
 # string methods
 
-x = 'python'# original 
+x = 'python'# original
 
 # upper()
 
@@ -63,3 +63,57 @@ print(x.lstrip(),len(x.lstrip()))
 
 # rstrip() -- removes only ending empty spaces
 print(x.rstrip(),len(x.rstrip()))
+
+# count() ---> retunrs the occurens of letter
+
+x = 'Good Morning'
+
+print(x.count('o'))
+
+# split() ---> split the values base on char
+
+x = 'ram,sam'
+print(x.split(','))
+
+y = 'python'
+print(y.split('t'))
+
+z = 'ram,sam,rahil,miller'
+print(len(z))
+print(z.split(','))
+print(type(z.split(',')))
+a = z.split(',')
+print(len(a))
+
+
+# immutable ---> not changeable
+
+a = 'python'
+print(a[0])
+
+#a[0] = 'j' # error bcoz str cant be changed, we cant override the original object
+
+# replace() ---> it can replaces the value in string but stores in other varible
+b = a.replace('p','j')
+print(b)
+print(a)
+a = a.replace('p','j') # i we are using same varible with diff values in it holds the recent values
+print(a)
+
+
+
+# try it out
+
+# 'Welcome to python, python is dynamically typed'
+
+# extract 'dynamically' ---> by using forward index
+# extract 'welcome' ---> by using backward index
+# extract 'python is dynamically typed' ---> by using backward index
+
+# count the 'python' occurences
+# covert all to upper
+# replace 'python' to 'java'
+# split the string based on ',' and count the len values after split
+
+
+
