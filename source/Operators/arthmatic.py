@@ -21,9 +21,10 @@ y = 20
 
 print(x-y)
 
-'bodmas'
+# 'bodmas' ---> braces, out of braces, division, multiplication, addition, substraction 
+#                 1st       2nd          3rd          4th          5th          6th
 
-#x = (10+20)+10*2-5 --> 30+20 --> 50-5 --> 45
+x = (10+20)+10*2-5 #--> 30+20 --> 50-5 --> 45
 
 # multiplication *
 
@@ -78,3 +79,6 @@ print(x*3)
 
 # print(x**2)
 # print(x/y)
+
+x = (10+20)+10*2-5
+print(x)
