@@ -115,5 +115,16 @@ print(a)
 # replace 'python' to 'java'
 # split the string based on ',' and count the len values after split
 
+x = 'python,java,c++'
+
+x = 'python java c++'
+
+x = 'Welcome to python, python is dynamically typed'
+
+print(x.split(',')) # list dtype
+print(len(x.split(',')))
+
+
+
 
 
