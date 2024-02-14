@@ -16,7 +16,7 @@
 #           ** Exponential
 
 
-# Assignment operators 
+# Assignment operators   x = x+1 ----> x+=1
 #               = assigining
 #               += adding+assigning
 #               -= sub+assigning
@@ -97,3 +97,8 @@ print(id(x))
 
 y = 20
 print(id(y))
+
+
+# Membership operators
+            # in - value is available or not
+            # not in
