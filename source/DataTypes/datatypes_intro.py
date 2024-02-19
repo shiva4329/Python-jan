@@ -10,4 +10,4 @@
 #                           complex - complex --- a+bj, 12+10j
 
 #              collectional -> seqential/combination of values
-#                           types-> list [],tuple (),set {}, Dictionary {key:value}
+#                           types-> list [],tuple (),set {}, Dictionary {key:value}# identity ---> 
