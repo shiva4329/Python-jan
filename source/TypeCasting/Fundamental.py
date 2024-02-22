@@ -156,3 +156,6 @@ x = 10+6j
 
 # y = int(x) # error cannot convert
 print(y,type(y))
+
+
+# remaining will be continued later...........
