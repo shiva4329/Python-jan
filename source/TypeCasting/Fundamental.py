@@ -158,4 +158,69 @@ x = 10+6j
 print(y,type(y))
 
 
-# remaining will be continued later...........
+#---------------------- boolen to diff dataypes----------
+
+x = True
+y = int(x)
+
+print(y,type(y))
+
+x = False
+y = int(x)
+
+print(y,type(y))
+
+# bool to float
+
+x = False
+y = float(x)
+
+print(y,type(y))
+
+
+# bool to string
+
+x = False
+y = str(x)
+
+print(y,type(y))
+
+# bool to Complex
+
+x = False
+y = complex(x)
+
+print(y,type(y))
+
+
+#---------------------- Complex to diff dataypes----------
+
+# complex to int
+x = 10+5j
+
+# y = int(x) # error 
+
+print(y,type(x)) 
+
+
+# complex to float
+x = 10+5j
+
+# y = float(x) # error 
+
+print(y,type(x)) 
+
+
+# complex to string
+x = 10+5j
+
+y = str(x)
+
+print(y,type(y))
+
+# complex to bool
+x = 10+5j
+
+y = bool(x)
+
+print(y,type(y))
