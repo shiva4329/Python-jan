@@ -63,3 +63,31 @@ if x%2 != 0:
     # x is a 'VOWEL'
 
 
+# write a program to check given i/p is alphabet or numeric
+# write a program to print given i/p is vowel or not in any case(upper/lower)
+# write a program to check given i/p is armstrong number or not
+
+
+# 153 = 1*1*1 + 5*5*5 + 3*3*3 == > 1 + 125 + 27 ---> 153
+
+# x = 256
+
+# x_str = str(x)
+
+# x_len = len(x_str)
+
+# y = 0
+
+# for i in x_str:
+# #     print(i,int(i)**(x_len),type(i))
+#     r = int(i)**(x_len)
+#     y = y+r
+#     print(y)
+
+# if x==y:
+#     print(True)
+
+
+
+
+
