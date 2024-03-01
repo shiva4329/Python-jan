@@ -114,3 +114,17 @@
 
 # write a programm to find a given input year is leap year or not
 
+# yr = int(input('Enter a year: '))
+
+# if (yr % 4 == 0 and yr % 100 != 0) or (yr % 400 ==0):
+#     print('leap_year')
+
+
+yr = int(input('Enter a year: '))
+
+if (yr % 400 == 0) and (yr % 100 == 0):
+    print('leap_year')
+elif (yr % 4 == 0) and (yr % 100 != 0):
+    print('leap_year')
+else:
+    print('not leap year')
