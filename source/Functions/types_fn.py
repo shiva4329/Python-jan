@@ -1,6 +1,7 @@
 # types of functions 4
 #               default        -- fn def
 #               non-default    --- fn def
+
 #               keyword         -- fn call
 #               non-keyword     -- fn call
 
@@ -17,7 +18,6 @@ def display(x,y): # fn def, non-default params/args
     print(x,y)
 
 # display(y=10,x=30) # fn call, keyword args
-
 
 
 # keyword args

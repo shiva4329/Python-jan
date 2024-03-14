@@ -128,3 +128,16 @@ elif (yr % 4 == 0) and (yr % 100 != 0):
     print('leap_year')
 else:
     print('not leap year')
+
+
+
+
+# tasks
+    
+# w.a.p to find factorial for number (realtime i/p)
+     # 5 = 5*4*3*2*1 = 120
+    
+# w.a.p to print fibonacci series i/p number of values
+    # i/p = 5 : 0 1 1 2 3
+
+# write a program to check given i/p is armstrong number or not
