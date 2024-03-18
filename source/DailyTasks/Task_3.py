@@ -120,14 +120,14 @@
 #     print('leap_year')
 
 
-yr = int(input('Enter a year: '))
+# yr = int(input('Enter a year: '))
 
-if (yr % 400 == 0) and (yr % 100 == 0):
-    print('leap_year')
-elif (yr % 4 == 0) and (yr % 100 != 0):
-    print('leap_year')
-else:
-    print('not leap year')
+# if (yr % 400 == 0) and (yr % 100 == 0):
+#     print('leap_year')
+# elif (yr % 4 == 0) and (yr % 100 != 0):
+#     print('leap_year')
+# else:
+#     print('not leap year')
 
 
 
@@ -136,8 +136,46 @@ else:
     
 # w.a.p to find factorial for number (realtime i/p)
      # 5 = 5*4*3*2*1 = 120
+
+# n = int(input('Enter the value : '))
+# f = 1
+
+# for i in range(1,n+1):
+#     f = f * i
+# print(f'Factorial of {n} is : {f}')
+
     
 # w.a.p to print fibonacci series i/p number of values
     # i/p = 5 : 0 1 1 2 3
 
+# num = int(input('Enter the value : '))
+
+# x = 0
+# y = 1
+# for i in range(num): 
+#     print(x)
+#     z = x+y
+#     x = y
+#     y = z
+
+
 # write a program to check given i/p is armstrong number or not
+
+# 153 = 1*1*1 + 5*5*5 + 3*3*3 == > 1 + 125 + 27 ---> 153
+
+# x = 256
+
+# x_str = str(x)
+
+# x_len = len(x_str)
+
+# y = 0
+
+# for i in x_str:
+# #     print(i,int(i)**(x_len),type(i))
+#     r = int(i)**(x_len)
+#     y = y+r
+#     print(y)
+
+# if x==y:
+#     print(True)
