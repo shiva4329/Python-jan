@@ -2,14 +2,19 @@ from colorama import Fore
 # step1 : login
 # step2 : Ask options
 # step3 : if succesfully logged in ask for option(withdrawl,deposit,balance,exit)
+#step4 : bal fn
+# step5 : deposit fn
+# step 6 : withdrawl fn
+
 
 user = 'ABC'
 pwd = '123456'
-balance = 1000
+balance = 1000 # global
 
 def bal(): # balance fn
     global balance
-    print(f"\t\tbalance : {balance}\n")
+    msg = f"\t\tbalance : {balance}\n"
+    print(msg)
 
 def deposit(): # deposit fn
     global balance
@@ -58,4 +63,4 @@ def login(user,pwd): # login fn
     else:
         print('Invalid Credentials, please try after some time')
 
-login(user,pwd)
+login(user,pwd) # function call for user login
