@@ -15,8 +15,3 @@ print('2')
 print('1')
 time.sleep(0.5) # delay for 5 micro seconds
 print('2')
-
-
-from source.Functions.ATM_Code import * # * = all
-
-login('ABC','123456')
