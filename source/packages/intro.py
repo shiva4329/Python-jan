@@ -1,33 +1,40 @@
-# packages: library ----- group of modules
-            # pre-bult   -- in-bult
-            # user defiened  -- user generated
+# package : group of modules(folder)
+# module : the file which having .py extension, we can import the functionalites of the code and can reuse
+# types: 2
+#           pre-defined = in-built(already available) 3,20,000
+#           user defined = user can design their own lib/modules/packages
+# how to consider folder as package/module = create __init__.py in that folder
 
-# complex math
-# import cmath
-# import time
-# import datetime
-# import pandas
-# import numpy
-# import seaborn
+# syntax : from <package name>.<module name> import <function name>/*(all function)
+# syntax : for single module : import <module name> as <alias name>
 
-# for complex mathematics
-import cmath
+# user defined -----------
+# source
+#     Choclate
+#         ferro
 
-print(cmath.sqrt(49))
-print (cmath.cos(1))
+from source.Choclate.ferro import display,show
 
-# for time with seconds operations
-import time
+print(display())
+print(show())
 
-print(time.time())
+from source.Choclate.ferro import * # imports all
 
-
-# for datetime operations
-import datetime
-
-print(datetime.datetime.now())
+print(display())
+print(show())
 
 
+from source.Choclate.ferro import display as dp, show as sh
+
+print(dp())
+print(sh())
+
+
+# inbuilt-modules = os(os files/folder operations)
+#                   time (time realted)
+#                   datetime (date related)
+#                   pandas (csv, data)
+#                   numpy ()
 
 
 
