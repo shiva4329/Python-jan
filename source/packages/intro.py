@@ -9,9 +9,9 @@
 # syntax : for single module : import <module name> as <alias name>
 
 # user defined -----------
-# source
-#     Choclate
-#         ferro
+# source(main folder/package)
+#     Choclate(sub-folder)
+#         ferro(file)
 
 from source.Choclate.ferro import display,show
 
