@@ -24,7 +24,7 @@ print(os.getcwd())
 # list all the content in the currrent directory
 print(os.listdir())
 
-# create a file in currnt directory == open() / with
+# create a file in current directory == open() / with
 
 # open() = when we use the open fn we need to use close() fn also
 
@@ -58,3 +58,5 @@ f.write(msg)
 f = open('sample_1.txt','a')
 msg = '\nWelcome to C++'
 f.write(msg)
+
+f.close() # close the file
