@@ -20,7 +20,7 @@ try:
     print(10 + 'a')
     f3 = open('blue.txt', 'r')
 
-except:
+except FileNotFoundError:
     print('error in try block check the logic')
 
 
@@ -30,6 +30,11 @@ try: # checks for the erors and gives to except
     # print(10 + 'a')
     f3 = open('blue.txt', 'r')
 
+except ZeroDivisionError: # handles the particular exception
+    print('error in try block check the logic')
+
+except FileNotFoundError:
+    print('file is missing, pls check')
 except ZeroDivisionError: # handles the particular exception
     print('error in try block check the logic')
 
