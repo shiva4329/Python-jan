@@ -25,18 +25,18 @@
 
 # how to create a file using open() and with
 
-f1 = open('sample1.txt','w')
+f1 = open('sample1.txt', 'w')
 f1.close()
 
 
-with open('sample2.txt','w') as f2:
+with open('sample2.txt', 'w') as f2:
         pass
 
 
 
 
 # read the data in file
-f1 = open('sample1.txt','r')
+f1 = open('sample1.txt', 'r')
 data = f1.read() # reads the data in file
 print(data)
 f1.close() # close the file
@@ -46,7 +46,7 @@ with open('sample2.txt', 'r') as f2:
 
 
 # write the data in file
-f1 = open('sample1.txt','w')
+f1 = open('sample1.txt', 'w')
 data = f1.write('hello') # reads the data in file
 print(data)
 f1.close() # close the file
@@ -56,7 +56,7 @@ with open('sample2.txt', 'w') as f2:
 
 
 # append the data in file
-f1 = open('sample1.txt','a')
+f1 = open('sample1.txt', 'a')
 data = f1.write('hello') # reads the data in file
 print(data)
 f1.close() # close the file

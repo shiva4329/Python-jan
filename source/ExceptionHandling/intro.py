@@ -46,3 +46,21 @@ except: # handles te all types of errors
 
 finally: # finally will run not matter what ever the error (or) no error
     print('hello')
+
+
+
+
+
+# check the file is available or not using try.......excepe
+
+try:
+    f1 = open('sample1.txt','r')
+    print(f1.read())
+
+except FileNotFoundError:
+    print('File is Missing')
+    f1 = open('sample1.txt', 'w')
+    f1.write('Welcome')
+
+finally:
+    f1.close()
