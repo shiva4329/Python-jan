@@ -1,0 +1,68 @@
+OOPs : object oriented programming
+
+
+
+features : 4 pillers of oops
+Encapsulation : groups/binds data and operation
+Inheritence : it is the process of aquiring/using the properties of one class into another class
+Abstraction : Hiding up the data and methods of a class
+Polymorphism : the ability to take more than many forms
+
+
+the above opps principles proves :
+    security : ex: bank : one customer details cannot viewed by another customer
+    flexibility : ex : bank : customer can deposit eaither manul or cheks or deposit machine
+    re-usablility : ex: ATM machine built once and used many times
+
+------------------------------------------------------------------------------------------------------------------------
+But in python, we can wrte programs using
+1. procedural oriented programming : only fn's
+2. object oriented programming : using class
+
+In java, developer forced to wrte in oops, injava we cannot develop appllications oops
+
+---------------------------------------------------------------------------------------------------------------------
+1) Encapsulation : grouping/binding the data and operation
+
+every application has got data and opeartions.
+data represented using variables
+operations represented using functions/methods
+
+customer --->data
+
+cname = 'miller'
+caccno = '10123456'
+caddr = 'US'
+bal = 5000
+
+customer ----> operation/methods
+
+def deposit():
+    pass
+def withdrawl():
+    pass
+def bal():
+    pass
+---------------------------------------------------------------------------------------------------
+
+
+2) Abstarction : Hiding up the data and methods of a class
+
+ex : properties of one class cannot be accessed by another class
+
+if a customer given to a bank class, then for 'n' no.of customers, only one class is created/used for that partcular customer
+
+objects are created
+
+c1
+c2
+c3
+------------------------------------------------------------------------------------------------------------------------------
+
+3) Inheritence : it is the process of aquiring/using the properties of one class into another class
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+4) polymorphysm : he ability to take more than many forms
