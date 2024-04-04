@@ -46,4 +46,4 @@ obj = sample()
 val = obj.multiplication(10,20)
 
 print(f'value is {val}')
-print(obj.name)
+print(sample.name,obj.z)
