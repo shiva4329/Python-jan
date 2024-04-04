@@ -1,4 +1,4 @@
-# static varables :    declared in inside class
+# static variables :    declared in inside class
 #                       not with-in the method
 #                       accessed by using class name
 #                       can be accessed inside/outside by using class name
@@ -11,7 +11,7 @@ class school:
     address = 'Hyd' # static
 
     print(name) # calling static in class
-    print(address) # calling ststic in calss
+    print(address) # calling static in calss
 
     def section1(self):# method with-out logic
 
@@ -53,11 +53,11 @@ obj = school()  # calling school class
 obj.section1()
 obj.section2()
 
-# how to call ststic outside the class
+# how to call static outside the class
 # ans : using with class name
 print(school.x) # class name
 
-# how to call ststic outside the class
+# how to call static outside the class
 # ans : using with class name reference(object name)
 print(obj.y) # with obj name
 
