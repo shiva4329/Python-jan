@@ -1,9 +1,10 @@
-# exception : error - it breaks the code
+# exception : is an error which is caused by syntax or by logic. so it breaks the code
+#               for that we can handle such errors using exception handling
 # syntax
 
 # try:
 #     ............................
-#     ...........try block.................
+#     ...........try block/error block.................
 #
 # except:
 #     ........except block............:
