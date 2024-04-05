@@ -51,14 +51,14 @@ x = 10  # global
 
 class Company:  # defining class
 
-    global x # globalising the static var
+    global x # globalising the x variable
     x = 100  # static
 
     # print(x)
 
     def depart1(self):  # defining method
 
-        global x  # globalising the local var
+        global x  # globalising x variable
 
         x = 1000  # local
 
