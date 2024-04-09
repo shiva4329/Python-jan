@@ -46,7 +46,7 @@ def bal():
 ---------------------------------------------------------------------------------------------------
 
 
-2) Abstarction : Hiding up the data and methods of a class
+2) Abstraction : Hiding up the data and methods of a class
 
 ex : properties of one class cannot be accessed by another class
 
