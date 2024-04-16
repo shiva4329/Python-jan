@@ -1,6 +1,6 @@
-# constructer : when we are calling 'class' it automatically executes
+# constructor : when we are calling 'class' it automatically executes
 #               defining using '__init__'
-#               it is also called as method no need to call seperately, it executes directly when we are calling class
+#               it is also called as method no need to call separately, it executes directly when we are calling class
 
 
 
@@ -21,8 +21,6 @@ class calculator:
 
 
 obj = calculator()
-
-
 
 # create a 'student' class, create a 'grade' method
 

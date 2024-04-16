@@ -3,10 +3,10 @@ OOPs : object oriented programming
 
 
 features : 4 pillers of oops
-Encapsulation : groups/binds data and operation
-Inheritence : it is the process of aquiring/using the properties of one class into another class
-Abstraction : Hiding up the data and methods of a class
-Polymorphism : the ability to take more than many forms
+    Encapsulation : groups/binds data and operation
+    Inheritence : it is the process of aquiring/using the properties of one class into another class
+    Abstraction : Hiding up the data and methods of a class
+    Polymorphism : the ability to take more than many forms
 
 
 the above opps principles proves :
@@ -15,11 +15,11 @@ the above opps principles proves :
     re-usablility : ex: ATM machine built once and used many times
 
 ------------------------------------------------------------------------------------------------------------------------
-But in python, we can wrte programs using
+But in python, we can write programs using
 1. procedural oriented programming : only fn's
-2. object oriented programming : using class
+2. object-oriented programming : using class
 
-In java, developer forced to wrte in oops, injava we cannot develop appllications oops
+In java, developer forced to write in oops, in java we cannot develop applications oops
 
 ---------------------------------------------------------------------------------------------------------------------
 1) Encapsulation : grouping/binding the data and operation

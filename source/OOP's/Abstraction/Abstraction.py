@@ -1,20 +1,20 @@
-# Abstarction : Hiding up the data and methods of a class
+# Abstraction : Hiding up the data and methods of a class
 #   symbol : using double underscore '__' before the variable/method
 #
 # ex : properties of one class cannot be accessed by another class
 #
-# if a customer given to a bank class, then for 'n' no.of customers, only one class is created/used for that partcular customer
+# if a customer given to a bank class, then for 'n' no.of customers, only one class is created/used for that particular customer
 #
 
-# when we provided abstration to varaiable/method we cannot call that outside the class bcoz
-# it hides the variable/method so that we cannot use those ouside the class
-# but we can access iside the class
+# when we provided abstraction to variable/method we cannot call that outside the class bcoz
+# it hides the variable/method so that we cannot use those outside the class
+# but we can access inside the class
 
 
-# hiding the static varaible
+# hiding the static variable
 
 class Employee:
-    __ename = 'Miller' # static # provided abstartion
+    __ename = 'Miller' # static # provided abstraction
     eadd = 'US' # static
 
     def display(self):
@@ -30,14 +30,14 @@ e1.display()
 
 
 
-# hiding the non-static varaible
+# hiding the non-static variable
 
 class Employee:
-    __ename = 'Miller' # static # provided abstartion
+    __ename = 'Miller' # static # provided abstraction
     eadd = 'US' # static
 
     def display(self):
-        self.__salary = 200000 # non-static # provided abstartion
+        self.__salary = 200000 # non-static # provided abstraction
         print(f'Employee name : {Employee.__ename}') # calling static
         print(f'Employee address : {Employee.eadd}') # calling static
         print(f'Employee salary : {self.__salary}') # calling non-static
@@ -52,20 +52,20 @@ class Employee:
 
 
 
-# hiding the method using abstarction
+# hiding the method using abstraction
 
 class Employee:
-    __ename = 'Miller' # static # provided abstartion
+    __ename = 'Miller' # static # provided abstraction
     eadd = 'US' # static
 
     def __display(self): # providing abstraction to method
-        self.__salary = 200000 # non-static # provided abstartion
+        self.__salary = 200000 # non-static # provided abstraction
         print(f'Employee name : {Employee.__ename}') # calling static
         print(f'Employee address : {Employee.eadd}') # calling static
         print(f'Employee salary : {self.__salary}') # calling non-static
 
     def show(self): # for calling abstract method
-        self.__display() # calling abstatction method
+        self.__display() # calling abstraction method
 
 e1 = Employee()
 
