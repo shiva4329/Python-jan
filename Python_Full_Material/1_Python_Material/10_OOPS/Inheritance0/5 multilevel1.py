@@ -1,16 +1,18 @@
 #Multi-level Inheritence: Deriving a class from another derived class
-m=45
+
+m=45 # global
 class A:
-    x=10
-    y=20
+    x=10 # stat
+    y=20 # stat
     def m1(self):
         global m #forward declaration
         m=55
         print("m=",m)
-        print("x=",A.x)
-        print("y=",A.y)
+        print("x=",A.x) # calling stat
+        print("y=",A.y) # class stat
+
 class B(A):
-    z=30
+    z=30 # stat
     def m2(self):
         total=B.x+B.y+B.z
         print("z=",B.z)

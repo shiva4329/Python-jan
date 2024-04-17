@@ -28,6 +28,8 @@ c1.m1()
 
 
 
+
+
 #here m1 of class A is executed bcoz while inheriting
          #class A is inherited first,i.e we said class C(A,B)
          #but if we say class C(B,A),then m1 of class B executed

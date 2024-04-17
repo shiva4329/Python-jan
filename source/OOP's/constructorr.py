@@ -29,10 +29,10 @@ obj = calculator()
 # grade assign
 
 # each subj total = 100
+# avg = s1+s2+s3/3
+#
 #
 # 10,20,30 = avg
-
-
 # if avg > 90:
 #     "o"
 #
