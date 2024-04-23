@@ -1,4 +1,12 @@
 OOPs : object oriented programming
+object is nothing but reference variable
+
+why ref-varaiable?
+
+eg: ---> bank -----> cutomer (object/ref-variable)
+c1 = A()
+c2 = A()
+
 
 
 

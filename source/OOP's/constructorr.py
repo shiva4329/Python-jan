@@ -20,7 +20,7 @@ class calculator:
 
 
 
-obj = calculator()
+# obj = calculator()
 
 # create a 'student' class, create a 'grade' method
 
