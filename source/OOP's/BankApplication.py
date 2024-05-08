@@ -81,10 +81,6 @@ class Bank:
         self.options()
 
 
-
-
-
-
 c1 = Bank()
 
 
