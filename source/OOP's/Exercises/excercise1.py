@@ -24,9 +24,9 @@ class student:
             print('grade : Failed')
 
 
-std1 = student()
-
-std1.grade()
+# std1 = student()
+#
+# std1.grade()
 
 
 
