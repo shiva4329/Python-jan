@@ -69,4 +69,3 @@ class Bank:
 
 
 
-c1 = Bank()
