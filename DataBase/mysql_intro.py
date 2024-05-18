@@ -16,6 +16,9 @@
 #           varchar(255) ---> max length
 #           varchar(20) ----> particular length---> 20 char
 
+
+
+
 # Creating data base
 #     create database <db name>;
 
@@ -27,23 +30,33 @@
 
 #       show tables;
 
-# create table in databse
+# create table in database
 
-#  create table <table name>(col1 dtype,col2 dtype......);
+    #  create table <table name>(col1 dtype,col2 dtype......);
 
 
 # inserting data into table
 
-#   insert into Student(id,name,age,address,mobile) values(1,'miller',34,'US','012345678');
+    #   insert into Student(id,name,age,address,mobile) values(1,'miller',34,'US','012345678');
 
-# show data
+# display  total data
 
-# select * from <table name>
+    # select * from <table name>
 
-# select * from Student where age = 34 and address = 'US';
-#
-# select * from Student where age > 30;
-#
-# select name from Student;
-#
-# select name,age from Student;
+
+# display data for particular column filter
+
+    # select * from Student where age = 34 and address = 'US';
+
+    # select * from Student where age > 30;
+
+# display specific column data
+
+    # select name from Student;
+
+    # select name,age from Student;
+
+
+# reset mysql-password
+
+    #alter user 'user'@'localhost' identified by 'New password';
