@@ -1,4 +1,7 @@
-import pymysql as mysql
+
+
+
+import pymysql as mysql # pysql
 
 con = mysql.connect(user='root',password='root', host='localhost',db='School')
 
