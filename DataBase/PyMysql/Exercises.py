@@ -75,3 +75,7 @@ print(list(cur))
 # purpose of joins
 
 
+
+#
+
+
