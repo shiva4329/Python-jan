@@ -64,3 +64,14 @@ cur.execute('Select * from Employee1')
 print(list(cur))
 
 
+
+
+# in SQL
+# update query ---->
+# drop table/delete
+
+# what is join
+# types of joins
+# purpose of joins
+
+
