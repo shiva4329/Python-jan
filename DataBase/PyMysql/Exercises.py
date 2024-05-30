@@ -74,8 +74,6 @@ print(list(cur))
 # types of joins
 # purpose of joins
 
-
-
 #
 
 

@@ -1,0 +1,66 @@
+# types of Data types 2 :
+        fundamental --- int, float,str,boolean,complex
+        collectional -- list,tuple,set,dictionay
+
+ list -> [] -> mutable
+ tuple -> () -> immutable
+ set -> {} -> immutable
+ dict -> {k,v} -> mutable
+
+
+ # types of indexex --> forward index > left to right > 0
+ #                      back ward > right to left > -1
+
+
+ x = [10,20,30]
+
+ +ve
+ x[2]
+
+ x[1:]
+
+ 20 -Ve
+ x[-2]
+
+
+ x = [10,[20,30]] # nested list
+
+ +ve [20,30]
+ print(x[1]
+
+ -ve [20,30]
+ print(x[-1])
+
+
+
+ x = [10,[20,30,[40,50]]]
+
+ +ve [40,50]
+
+ x = [10,20,('python')]
+
+ 't' +ve
+print(x[2][2])
+
+x = (10,20,[30,{'name':'shiva'}])
+
+add two lists
+
+x = [10,20] + [30,40]
+
+# reverse the list using index
+
+x = [10,20,30]
+
+
+
+
+#
+
+x = [10,20,'python',[({'car':'Ford'})],[30,40]]
+
+extract 'Ford'
+extract 40
+extract 'thon'
+print the x in reverse order
+
