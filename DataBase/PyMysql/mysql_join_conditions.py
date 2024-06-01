@@ -22,4 +22,4 @@
 # select * from A right join B on A.Id = B.Id
 #
 # -- full join -> common data+total right and left table data
-# select * from A full join B on A.Id = B.Id
+# select * from A full join B

@@ -36,3 +36,7 @@ print(cur)
 
 for i in cur:
     print(i)
+
+cur.execute('select * from A inner join B on A.Id = B.Id')
+
+print(list(cur))
